@@ -5,6 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
+  siteUrl: 'https://JaredGomes.com',
   siteName: 'Jared Gomes',
   siteDescription:
     'A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.',
@@ -28,6 +29,12 @@ module.exports = {
             create: true
           }
         }
+      }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-151207559-2'
       }
     }
   ],
