@@ -20,14 +20,24 @@
 
     <p class="author__links">
       <a
+        aria-label="Jared Gomes Youtube Channel"
         href="//www.youtube.com/channel/UCL08qIMArqj2CCCyTyJ21Lg"
         target="_blank"
+        rel="noopener"
         ><font-awesome :icon="['fab', 'youtube']"
       /></a>
-      <a href="//github.com/Jared-Gomes" target="_blank"
+      <a
+        aria-label="Jared Gomes Github Page"
+        href="//github.com/Jared-Gomes"
+        target="_blank"
+        rel="noopener"
         ><font-awesome :icon="['fab', 'github']"
       /></a>
-      <a href="//twitter.com/Jared_Gomes_" target="_blank"
+      <a
+        aria-label="Jared Gomes Twitter Feed"
+        href="//twitter.com/Jared_Gomes_"
+        target="_blank"
+        rel="noopener"
         ><font-awesome :icon="['fab', 'twitter']"
       /></a>
     </p>
