@@ -15,7 +15,7 @@
 
     <p class="author__intro">
       Just another ordinary web developer documenting their journey through this
-      ever-changing discipline.
+      ever-changing space.
     </p>
 
     <p class="author__links">
