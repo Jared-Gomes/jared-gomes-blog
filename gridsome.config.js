@@ -8,7 +8,7 @@ module.exports = {
   siteUrl: 'https://JaredGomes.com',
   siteName: 'Jared Gomes',
   siteDescription:
-    'A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.',
+    'Expand your web development knowledge with easy to follow tutorials and articles. Jared Gomes specializes in Angular 2+, Vue.js, and JavaScript.',
 
   templates: {
     Post: '/:title',
