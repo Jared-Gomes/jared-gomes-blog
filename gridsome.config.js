@@ -38,6 +38,12 @@ module.exports = {
       }
     },
     {
+      use: 'gridsome-plugin-netlify-cms',
+      options: {
+        publicPath: '/admin'
+      }
+    },
+    {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default

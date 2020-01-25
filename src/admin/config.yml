@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+media_folder: 'static/images'
+public_folder: '/uploads'
+site_url: https://jaredgomes.com
+
+collections:
+  - name: posts
+    label: 'Post'
+    folder: 'posts'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Published', name: 'published', widget: 'boolean' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Cover Image', name: 'cover_image', widget: 'image' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Series', name: 'series', widget: 'boolean' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
